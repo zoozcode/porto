@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [PortofolioController::class, 'home']);
+// Route::get('/home', [PortofolioController::class, 'home']);
+Route::get('/', [PortofolioController::class, 'home']);
